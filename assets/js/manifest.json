@@ -1,0 +1,16 @@
+{
+    "name": "Testing",
+    "short_name": "Test 2",
+    "description": "Membuat PWA Sederhana",
+    "icons": [
+        {
+            "src": "../images/favicon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#007aff",
+    "background_color": "#007aff"
+}

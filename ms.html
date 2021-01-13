@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="Agusti Mahendra" name="Author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Music Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/images/favicon.png" rel="icon">
+    <link href="assets/images/favicon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div id="app-cover">
+        <div id="bg-artwork"></div>
+        <div id="bg-layer"></div>
+        <div id="player">
+            <div id="player-track">
+                <div id="album-name"></div>
+                <div id="track-name"></div>
+                <div id="track-time">
+                    <div id="current-time"></div>
+                    <div id="track-length"></div>
+                </div>
+                <div id="s-area">
+                    <div id="ins-time"></div>
+                    <div id="s-hover"></div>
+                    <div id="seek-bar"></div>
+                </div>
+            </div>
+            <div id="player-content">
+                <div id="album-art">
+                    <img src="img/1.jpg" class="active" id="_1">
+                    <img src="img/2.jpg" id="_2">
+                    <img src="img/3.jpg" id="_3">
+                    <img src="img/4.jpg" id="_4">
+                    <img src="img/5.jpg" id="_5">
+                    <div id="buffer-box">Buffering ...</div>
+                </div>
+                <div id="player-controls">
+                    <div class="control">
+                        <div class="button" id="play-previous">
+                            <i class="fas fa-backward"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-pause-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-next">
+                            <i class="fas fa-forward"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/main.js"></script>
+
+</body>
+</html>
